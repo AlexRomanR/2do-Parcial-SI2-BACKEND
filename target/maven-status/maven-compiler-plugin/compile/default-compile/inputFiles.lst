@@ -1,0 +1,16 @@
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\config\CorsConfig.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\config\JWTAuthFIlter.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\config\SecurityConfig.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\AdminUsers.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\AuthController.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\UserManagementController.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\ReqRes.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\OurUsers.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Product.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\GestionAsisDocenteApplication.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\OurUserRepo.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\ProductRepo.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\AuthService.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\JWTUtils.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\OurUserDetailsService.java
+F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\UsersManagementService.java
