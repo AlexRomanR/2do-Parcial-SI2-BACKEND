@@ -1,8 +1,7 @@
 package com.GestionAsisDocente.dto;
 
 
-import com.GestionAsisDocente.entity.OurUsers;
-import com.GestionAsisDocente.entity.Product;
+import com.GestionAsisDocente.entity.*;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
@@ -27,6 +26,7 @@ public class ReqRes {
     private List<Product> products;
     private OurUsers ourUsers;
     private List<OurUsers> ourUsersList;
+
 
     public String getToken() {
         return token;
