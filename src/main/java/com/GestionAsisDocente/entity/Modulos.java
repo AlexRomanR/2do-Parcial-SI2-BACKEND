@@ -17,6 +17,7 @@ public class Modulos {
     private Integer id;
     private Integer numero;
     private String descripcion;
+    private String ubicacion;
 
 
     @ManyToOne

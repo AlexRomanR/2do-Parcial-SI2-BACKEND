@@ -31,17 +31,13 @@ public class ModulosService {
         Modulos modulo = new Modulos();
         modulo.setNumero(moduloRequest.getNumero());
         modulo.setDescripcion(moduloRequest.getDescripcion());
+        modulo.setUbicacion(moduloRequest.getUbicacion());
         modulo.setFacultad(facultad);
 
         return modulosRepository.save(modulo);
     }
 
-    public Facultades createFacultad(FacultadRequest facultadRequest) {
-        Facultades facultad = new Facultades();
-        facultad.setNombre(facultadRequest.getNombre());
-        facultad.setDescripcion(facultadRequest.getDescripcion());
-        return facultadesRepository.save(facultad);
-    }
+
 
     public Modulos updateModulo(Integer id, ModuloRequest moduloRequest) {
         Modulos modulo = modulosRepository.findById(id)
@@ -52,6 +48,7 @@ public class ModulosService {
 
         modulo.setNumero(moduloRequest.getNumero());
         modulo.setDescripcion(moduloRequest.getDescripcion());
+        modulo.setUbicacion(moduloRequest.getUbicacion());
         modulo.setFacultad(facultad);
 
         return modulosRepository.save(modulo);
