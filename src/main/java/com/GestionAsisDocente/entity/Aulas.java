@@ -5,6 +5,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.Set;
+
 @Data
 @Entity
 @Table(name = "aulas")
@@ -29,4 +31,7 @@ public class Aulas {
     public Integer getModuloId() {
         return modulos != null ? modulos.getId() : null;
     }
+
+
+
 }

@@ -26,6 +26,12 @@ public class DatabaseSeeder implements CommandLineRunner {
     private RolesRepository rolesRepository;
     @Autowired
     private PermisosRepository permisosRepository;
+    @Autowired
+    private AulasRepository aulasRepository;
+    @Autowired
+    private CarrerasRepository carrerasRepository;
+    @Autowired
+    private MateriasRepository materiasRepository;
 
     @Override
     public void run(String... args) throws Exception {
@@ -42,6 +48,8 @@ public class DatabaseSeeder implements CommandLineRunner {
             facultadesRepository.save(facultad1);
             facultadesRepository.save(facultad2);
         }
+
+
 
         // Usuarios
         if (ourUserRepo.count() == 0) {
@@ -84,6 +92,45 @@ public class DatabaseSeeder implements CommandLineRunner {
 
             modulosRepository.save(modulos1);
             modulosRepository.save(modulos2);
+        }
+
+        // Aulas
+        if (aulasRepository.count() == 0) {
+            Aulas aulas1 = new Aulas();
+            aulas1.setCapacidad(65);
+            aulas1.setNumero(35);
+            aulas1.setPiso(3);
+            aulas1.setDescripcion("Aula para avanzar teoria");
+
+            Modulos modulo1 = modulosRepository.findById(1)
+                    .orElseThrow(() -> new RuntimeException("Modulo not found with id 1"));
+
+            aulas1.setModulos(modulo1);
+
+
+
+            aulasRepository.save(aulas1);
+
+        }
+
+        // carreras
+        if (carrerasRepository.count() == 0) {
+            Carreras carreras1 = new Carreras();
+            carreras1.setCodigo("ING.SIS");
+            carreras1.setNombre("Ingenieria en sistemas");
+
+            carrerasRepository.save(carreras1);
+
+        }
+
+        // Materias
+        if (materiasRepository.count() == 0) {
+            Materias materias1 = new Materias();
+            materias1.setSigla("SI2");
+            materias1.setNombre("Sistemas de información 2");
+
+            materiasRepository.save(materias1);
+
         }
 
         // Permisos
