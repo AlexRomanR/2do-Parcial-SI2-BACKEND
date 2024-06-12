@@ -18,6 +18,7 @@ public class UsersManagementService {
 
     @Autowired
     private OurUserRepo usersRepo;
+
     @Autowired
     private JWTUtils jwtUtils;
     @Autowired
@@ -121,6 +122,14 @@ public class UsersManagementService {
             return reqRes;
         }
     }
+
+    public List<OurUsers> getAllUsersV2() {
+        return usersRepo.findAll();
+    }
+
+
+
+
 
 
     public ReqRes getUsersById(Integer id) {

@@ -16,4 +16,10 @@ public class Materias {
     private String nombre;
 
     @ManyToMany(mappedBy = "materias")
-    private Set<Carreras> carreras;}
+    private Set<Carreras> carreras;
+
+
+
+}
+
+

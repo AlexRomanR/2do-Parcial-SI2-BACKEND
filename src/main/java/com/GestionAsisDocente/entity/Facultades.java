@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.List;
+import java.util.Set;
 
 @Data
 @Entity
@@ -20,6 +21,8 @@ public class Facultades {
     @OneToMany(mappedBy = "facultad", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
     private List<Modulos> modulos;
+
+
 
 
 }

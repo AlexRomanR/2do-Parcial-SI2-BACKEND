@@ -10,6 +10,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 public class UserManagementController {
     @Autowired
@@ -22,6 +24,12 @@ public class UserManagementController {
     public ResponseEntity<ReqRes> getAllUsers(){
         return ResponseEntity.ok(usersManagementService.getAllUsers());
 
+    }
+
+    @GetMapping("/admin/get-all-usersV2")
+    public ResponseEntity<List<OurUsers>> getAllUsersV2() {
+        List<OurUsers> User = usersManagementService.getAllUsersV2();
+        return ResponseEntity.ok(User);
     }
 
     @GetMapping("/admin/get-users/{userId}")

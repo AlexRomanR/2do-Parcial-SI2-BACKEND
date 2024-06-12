@@ -7,6 +7,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.List;
+import java.util.Set;
 
 @Data
 @Entity
@@ -34,4 +35,6 @@ public class Modulos {
     public Integer getFacultadId() {
         return facultad != null ? facultad.getId() : null;
     }
+
+
 }
