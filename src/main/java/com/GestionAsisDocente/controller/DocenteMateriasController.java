@@ -22,6 +22,11 @@ public class DocenteMateriasController {
         return ResponseEntity.ok(docenteMateriasList);
     }
 
+    @GetMapping("/get-all-docenteMateriasByUser/{docenteId}")
+    public List<DocenteMaterias> getDocenteMateriasByDocenteId(@PathVariable Integer docenteId) {
+        return docenteMateriasService.findByDocenteId(docenteId);
+    }
+
     @PostMapping("/create-docenteMateria")
     public ResponseEntity<DocenteMaterias> createDocenteMaterias(@RequestBody DocenteMateriasRequest request) {
         DocenteMaterias docenteMaterias = docenteMateriasService.save(request);

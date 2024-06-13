@@ -33,6 +33,12 @@ public class DocenteMateriasService {
     @Autowired
     private FacultadesRepository facultadRepository;
 
+
+
+    public List<DocenteMaterias> findByDocenteId(Integer docente_id) {
+        return docenteMateriasRepository.findByDocenteId(docente_id);
+    }
+
     public List<DocenteMaterias> findAll() {
         return docenteMateriasRepository.findAll();
     }
