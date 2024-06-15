@@ -2,7 +2,11 @@ package com.GestionAsisDocente.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import java.util.List;
+
+@NoArgsConstructor
 @Data
 @Entity
 @Table(name = "docenteMaterias")
@@ -41,5 +45,7 @@ public class DocenteMaterias {
     @JoinColumn(name = "facultad_id", nullable = false)
     private Facultades facultad;
 
+    @OneToMany(mappedBy = "docenteMateria", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Licencias> licencias;
     // getters and setters
 }
