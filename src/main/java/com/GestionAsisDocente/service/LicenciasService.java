@@ -29,8 +29,4 @@ public class LicenciasService {
     public void deleteById(Integer id) {
         licenciasRepository.deleteById(id);
     }
-
-    public List<Licencias> findByDocenteMateriaId(Integer docenteMateriaId) {
-        return licenciasRepository.findByDocenteMateriaId(docenteMateriaId);
-    }
 }
