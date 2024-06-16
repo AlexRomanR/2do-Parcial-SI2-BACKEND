@@ -16,22 +16,13 @@ public class Licencias {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "motivo", nullable = false)
-    private String motivo;
-
-    @Column(name = "estado", nullable = false)
-    private Boolean estado;
-
-    @Temporal(TemporalType.DATE)
-    @Column(name = "fecha_actual", nullable = false, updatable = false)
-    private Date fechaActual;
-
-    @PrePersist
-    protected void onCreate() {
-        this.fechaActual = new Date();
-    }
-
     @ManyToOne
-    @JoinColumn(name = "docente_materia_id", nullable = false)
-    private DocenteMaterias docenteMateria;
+    @JoinColumn(name = "docenteMateria_id", nullable = false)
+    private DocenteMaterias docenteMaterias;
+
+    private String motivo;
+    private String estado;
+    private String fecha;
+
+
 }

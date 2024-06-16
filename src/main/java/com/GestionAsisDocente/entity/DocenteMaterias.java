@@ -45,7 +45,5 @@ public class DocenteMaterias {
     @JoinColumn(name = "facultad_id", nullable = false)
     private Facultades facultad;
 
-    @OneToMany(mappedBy = "docenteMateria", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Licencias> licencias;
-    // getters and setters
+
 }
