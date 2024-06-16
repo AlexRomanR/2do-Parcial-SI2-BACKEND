@@ -74,12 +74,12 @@ public class DatabaseSeeder implements CommandLineRunner {
             Modulos modulos1 = new Modulos();
             modulos1.setNumero(256);
             modulos1.setDescripcion("Modulo de la facultad de ciencias empresariales");
-            modulos1.setUbicacion("UbicacionX");
+            modulos1.setUbicacion("-17.818444166536366,-63.099470599823015");
 
             Modulos modulos2 = new Modulos();
             modulos2.setNumero(213);
             modulos2.setDescripcion("Modulo de la facultad de computación");
-            modulos2.setUbicacion("UbicacionX2");
+            modulos2.setUbicacion("-17.818444166536366,-63.099470599823015");
 
             Facultades facultad1 = facultadesRepository.findById(1)
                     .orElseThrow(() -> new RuntimeException("Facultad not found with id 1"));
