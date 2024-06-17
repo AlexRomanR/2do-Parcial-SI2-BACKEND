@@ -1,16 +1,80 @@
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\config\CorsConfig.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\config\JWTAuthFIlter.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\config\SecurityConfig.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\AdminUsers.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\AuthController.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\UserManagementController.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\ReqRes.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\OurUsers.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Product.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\GestionAsisDocenteApplication.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\OurUserRepo.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\ProductRepo.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\AuthService.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\JWTUtils.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\OurUserDetailsService.java
-F:\Descargas\GestionAsisDocente\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\UsersManagementService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\config\CorsConfig.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\config\JWTAuthFIlter.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\config\SecurityConfig.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\AdminUsers.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\AsistenciasController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\AulasController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\AuthController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\CarrerasController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\DocenteMateriasController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\FacultadesController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\LicenciasController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\MateriasController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\ModulosController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\PermisosController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\RolesController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\RolesPermisosController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\RolUserController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\controller\UserManagementController.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\AsistenciasRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\AulasRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\CarrerasRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\DocenteMateriasRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\FacultadRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\LicenciasRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\MateriasRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\ModuloRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\PermisosRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\ReqRes.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\RolesPermisosRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\RolesRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\RoleWithPermissionsDTO.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\RolUserRequest.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\dto\UserProfileMovil.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Asistencias.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Aulas.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Carreras.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\DocenteMaterias.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Facultades.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Licencias.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Materias.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Modulos.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\OurUsers.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Permisos.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Product.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\Roles.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\RolesPermisos.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\RolesPermisosId.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\entity\RolUser.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\GestionAsisDocenteApplication.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\AsistenciasRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\AulasRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\CarrerasRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\DocenteMateriasRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\FacultadesRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\LicenciasRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\MateriasRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\ModulosRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\OurUserRepo.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\PermisosRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\ProductRepo.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\RolesPermisosRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\RolesRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\repository\RolUserRepository.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\seeders\DatabaseSeeder.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\AsistenciasService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\AulasService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\AuthService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\CarrerasService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\DocenteMateriasService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\FacultadesService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\JWTUtils.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\LicenciasService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\MateriasService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\ModulosService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\OurUserDetailsService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\PermisosService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\RolesPermisosService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\RolesService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\RolUserService.java
+F:\SI2 PROYECTO PARCIAL 2\BackEnd\GestionAsisDocente\src\main\java\com\GestionAsisDocente\service\UsersManagementService.java
